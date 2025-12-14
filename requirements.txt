@@ -1,0 +1,84 @@
+# DRL-Guided Constraint Funneling System
+# Requirements for drl_patch_funnel.py
+#
+# Install with: pip install -r requirements.txt
+# Note: Install F1TENTH gym separately (see README)
+
+# ============================================
+# Core Dependencies
+# ============================================
+
+# NumPy and Scientific Computing
+numpy>=2.0.0
+scipy>=1.13.0
+pandas>=2.0.0
+
+# ============================================
+# Reinforcement Learning
+# ============================================
+
+# Gymnasium (OpenAI Gym successor)
+gymnasium>=0.29.0
+
+# Stable-Baselines3 (PPO, etc.)
+stable-baselines3>=2.7.0
+
+# PyTorch (with CUDA 11.8 support)
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ============================================
+# Optimization (MPC)
+# ============================================
+
+# CasADi (includes IPOPT solver)
+casadi>=3.6.0
+
+# ============================================
+# Visualization
+# ============================================
+
+# Matplotlib
+matplotlib>=3.9.0
+
+# Pygame (for F1TENTH rendering)
+pygame>=2.6.0
+
+# OpenCV (optional, for video recording)
+opencv-python>=4.10.0
+
+# ============================================
+# Utilities
+# ============================================
+
+# Progress bars
+tqdm>=4.60.0
+rich>=14.0.0
+
+# TensorBoard (training visualization)
+tensorboard>=2.15.0
+
+# YAML config parsing
+pyyaml>=6.0.0
+
+# Shapely (geometry operations)
+shapely>=2.0.0
+
+# ============================================
+# F1TENTH Gym
+# ============================================
+# Install separately:
+#   git clone https://github.com/f1tenth/f1tenth_gym.git
+#   cd f1tenth_gym && pip install -e .
+#
+# Or if published to PyPI:
+# f1tenth-gym>=1.0.0
+
+# ============================================
+# Optional: Numba for JIT compilation
+# ============================================
+numba>=0.60.0
+llvmlite>=0.43.0
+
