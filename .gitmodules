@@ -1,4 +1,4 @@
 [submodule "f1tenth_gym"]
 	path = f1tenth_gym
 	url = https://github.com/vigneshrl/f1tenth_gym.git
-	branch = v1.0.0
+	branch = adfs-sync-2536178
